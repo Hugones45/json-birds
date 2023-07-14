@@ -1,9 +1,136 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "Questions": [
+        {
+            "id": 1,
+            "theQuestion": "1 – What are birds?",
+            "perguntas": [
+                {
+                    "alternativa": "Birds are descendants of dinosaurs, unique animals that have their own classification and distinct characteristics.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Birds are dinosaurs and, consequently, they are also reptiles.",
+                    "valueResponse": true
+                },
+                {
+                    "alternativa": "Birds descend from a mysterious group of animals that disappeared a few million years after the extinction of dinosaurs.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "The first birds emerged in the Jurassic period from animals that also gave rise to pterosaurs.",
+                    "valueResponse": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "theQuestion": "2 – Are there native crows from Brazil?",
+            "perguntas": [
+                {
+                    "alternativa": "Yes, anu-branco and anu-preto are a species of crow found throughout the Brazilian territory.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Yes, anu-preto are the only representatives of the crow family present in Brazil.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "No, there is no native species of crow from Brazilian lands.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Yes, jays, also known as Cyanocorax (which means blue crow), have native species from Brazil.",
+                    "valueResponse": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "theQuestion": "3 – Which of the birds below is a nearest living relative of the prehistoric terror birds?",
+            "perguntas": [
+                {
+                    "alternativa": "All species of eagles.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Chickens and ducks.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Seriema.",
+                    "valueResponse": true
+                },
+                {
+                    "alternativa": "Cassowaries and ostriches.",
+                    "valueResponse": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "theQuestion": "4 – In Egyptian mythology, the bennu was a sacred bird that later became popularly known as the phoenix thanks to the Greeks. The phoenix is represented as an eagle, but in the original myth, the bennu was a different bird.",
+            "perguntas": [
+                {
+                    "alternativa": "A heron",
+                    "valueResponse": true
+                },
+                {
+                    "alternativa": "A dove",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "A pheasant",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "A peacock",
+                    "valueResponse": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "theQuestion": "5 – Indicate bellow the only group where all the bird species are incapable of flight.",
+            "perguntas": [
+                {
+                    "alternativa": "Chickens, ducks, and mallards.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Penguins, rheas, and the parrot species known as kakapo.",
+                    "valueResponse": true
+                },
+                {
+                    "alternativa": "Chickens, ostriches, and seriemas.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "Nightjars, partridges, and geese.",
+                    "valueResponse": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "theQuestion": "6 – What is the highest altitude at which a bird has been observed flying?",
+            "perguntas": [
+                {
+                    "alternativa": "About 400 meters.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "About 2500 meters.",
+                    "valueResponse": false
+                },
+                {
+                    "alternativa": "About 5000 meters.",
+                    "valueResponse": true
+                },
+                {
+                    "alternativa": "About 6000 meters.",
+                    "valueResponse": true
+                }
+            ]
+        }
+    ]
 }
